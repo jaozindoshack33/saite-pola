@@ -1,0 +1,110 @@
+/* Resetando estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; /* Cor de fundo pastel */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fffafa; /* Container com tom pastel */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #ffb3b3; /* Cores dos títulos em tom pastel */
+}
+
+/* Navegação */
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff9999; /* Links em tom pastel */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Formulários */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffcccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background: #ff9999; /* Botões em tom pastel */
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #ff6666; /* Cor do botão ao passar o mouse */
+}
+
+/* Listagem de notas */
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #ffebeb; /* Notas com tom pastel */
+    border-left: 5px solid #ff9999;
+    border-radius: 4px;
+}
+
+ul li h2 a {
+    text-decoration: none;
+    color: #ff6666; /* Links das notas em tom pastel */
+}
+
+ul li h2 a:hover {
+    text-decoration: underline;
+}
+
+/* Botões de ação */
+a {
+    color: #ff6666; /* Links em tom pastel */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+small {
+    color: #666;
+}
